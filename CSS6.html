@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD 
+HTML4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+        <style type="text/css">
+        
+        </style>
+    </head>
+
+    <body>
+        <form action="dosomething" method="POST">
+            What do you want to do today?
+            <select name="activities">
+                <option value="play">play the guitar</option>
+                <option value="your">comb your hair</option>
+                <option value="smmonelse">comb someone elses hair</option>
+                <option value="opossum">teach a opossum</option>
+                <option value="shave">shave</option>
+            </select>
+
+            <br/>
+
+            Tell me about yourself:
+            <br/>
+            <textarea name="bio" rows="8" cols="50">
+Type something here
+            </textarea>
+            <br/>
+            Username: <input type="text" name="username" />
+            <br/>
+            Password: <input type="password" name="psword"/>
+            <p>Now submit a file!</p>
+            <input type="file" name="buckyfile" />
+            <br/>
+            <input type="submit" value="Submit!"/>
+        </form>
+    </body>
+</html>
